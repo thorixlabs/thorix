@@ -1,0 +1,23 @@
+{
+  "name": "thorixlabs/thorix",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Thorixlabs\\Thorix\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Ivan Mercedes",
+      "email": "ivanmercede@gmail.com"
+    }
+  ],
+  "require": {
+    "twig/twig": "^3.21",
+    "league/commonmark": "^2.7",
+    "symfony/yaml": "^7.3",
+    "symfony/finder": "^7.3",
+    "symfony/filesystem": "^7.3"
+  }
+}
